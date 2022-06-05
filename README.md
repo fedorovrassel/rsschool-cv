@@ -1,2 +1,1 @@
-Fedorov Ruslan
-
+https://fedorovrassel.github.io/rsschool-cv/cv
