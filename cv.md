@@ -13,10 +13,10 @@ Hello. I work in a factory and want to change jobs. At the university, I had exp
 ___
 ## Skills
 
-1 **HTML**
-2 **CSS**
-3 **C** (At the university)
-4 **Python** (A little bit) 
+1. **HTML**
+2. **CSS**
+3. **C** (At the university)
+4. **Python** (A little bit) 
 
 ___
 ## Code Example
@@ -25,7 +25,7 @@ ___
 
 ___
 ## Education
-* *University*: Samara State University(SSU)), developer of professionally oriented computer technologies (facultative)
+* *University*: Samara State University(SSU), developer of professionally oriented computer technologies (facultative)
 
 ___
 ## English
