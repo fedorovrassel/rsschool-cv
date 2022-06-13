@@ -1,43 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>CV</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Ruslan Fedorov</h1>
+<head> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" href="./fav.ico">
+  <title>CV Ruslan Fedorov</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav"> <!--!Menu-->
+      <ul class="list-menu">
+        <li>
+          <a class="item-menu" href="#profile">Profile</a><!--anchor link to section profile-->
+        </li>
+        <li>
+          <a class="item-menu" href="#contacts">Contacts</a><!--anchor link to section contacts-->
+        </li>
+        <li>
+          <a class="item-menu" href="#about-me">About Me</a><!--anchor link to section about-me-->
+        </li>
+        <li>
+          <a class="item-menu" href="#skills">Skills</a><!--anchor link to section skills-->
+        </li>
+        <li>
+          <a class="item-menu" href="#code-example">Code Example</a><!--anchor link to section code example-->
+        </li>
+        <li>
+          <a class="item-menu" href="#projects">Projects</a><!--anchor link to section projects-->
+        </li>
+        <li>
+          <a class="item-menu" href="#courses">Courses</a><!--anchor link to section courses-->
+        </li>
+        <li>
+          <a class="item-menu" href="#education">Education</a><!--anchor link to section education-->
+        </li>
+        <li>
+          <a class="item-menu" href="#english">English</a><!--anchor link to section english-->
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="title" id="profile"><!--section profile-->
+      <img class="photo-profile" src="./photo.png" alt="Photo" width="300" height="300">
+      <h1  class="profile-title">Ruslan Fedorov</h1>
+      <p class="profi">Beginner Front-End Developer</p>
+    </section>
+    <section class="section" id="contacts"><!--section contacts-->
+      <h2 class="section-title">Contacts</h2>
+      <ul class="list-section">
+        <li><span class="span">Email:</span> fedorovrassel@gmail.com</li>
+        <li><span class="span">Discord:</span> Rassel#5757</li>
+        <li><span class="span">Git:</span> <a class="link" href="https://github.com/fedorovrassel">fedorovrassel</a></li>
+      </ul>
+    </section>
 
-        <h2>Contacts</h2>
-        <ul>
-            <li> <b>Email:</b> <em>fedorovrassel@gmail.com</em> </li>
-            <li> <b>Discord:</b> Rassel#5757 </li>
-            <li> <b>Git:</b> <a href="https://github.com/fedorovrassel">fedorovrassel</a> </li>
-        </ul>
+    <section class="section" id="about-me"><!--section about me-->
+      <h2 class="section-title">About Me</h2>
+      <p>Hello. I work in a factory and want to change jobs.
+      At the university, I had experience in programming and decided to try myself in this.
+      I have few skills, but I am ready to learn and develop.</p>
+    </section>
 
-        <h2>About Me</h2>
+    <section class="section" id="skills"><!--section skills-->
+      <h2 class="section-title">Skills</h2>
+      <ul class="list-section">
+        <li><span class="span">HTML</span></li>
+        <li><span class="span">CSS</span></li>
+        <li><span class="span">C</span> (At the university)</li>
+        <li><span class="span">C++</span> (At the university)</li>
+      </ul>
+    </section>
 
-            <p>
-                    Hello. I work in a factory and want to change jobs. At the university, I had
-                experience in programming and decided to try myself in this. I have few skills,
-                but I am ready to learn and develop. I am able to adapt to changing
-                environments.
-            </p>
-        <h2>Skills</h2>
-        <ol>
-            <li><b>HTML</b></li>
-            <li><b>CSS</b></li>
-            <li><b>C</b> (At the university)</li>
-            <li><b>Python</b> (A little bit)</li>
-        </ol>
-        <h2>Education</h2>
-        <ul>
-            <li><em>University</em>: Samara State
-            University(SSU), developer of professionally
-            oriented computer technologies (facultative)</li>
-        </ul>
+    <section class="section" id="code-example"><!--section code example-->
+      <h2 class="section-title">Code Example</h2>
+      <pre>
+      <code class="code">
+function multiply(a, b){
+ return(a * b);
+}
+      </code>
+      </pre>     
+    </section>
 
-        <h2>English</h2>
-        <b>A1</b>
-    </body>
+    <section class="section" id="projects"><!--section projects-->
+      <h2 class="section-title">Projects</h2>
+      <p><a class="link" href=" https://fedorovrassel.github.io/rsschool-cv/index.html">My CV</a></p>
+    </section>
+  
+    <section class="section" id="courses"><!--section courses-->
+      <h2 class="section-title">Courses</h2>
+      <ul class="list-section">
+        <li><span class="span">HTML для начинающих</span>, <a class="link" href="https://ru.code-basics.com/languages/html">Code Basics (HTML)</a></li>
+        <li><span class="span">CSS для начинающих</span>, <a class="link" href="https://ru.code-basics.com/languages/css">Code Basics (CSS)</a></li>
+      </ul>
+    </section>
+    <section class="section" id="education"><!--section education-->
+      <h2 class="section-title">Education</h2>
+      <p><span class="span">developer of professionally oriented computer technologies (facultative)</span>, Samara State University(SSU)</p>
+    </section>
+    <section class="section" id="english"><!--section english-->
+      <h2 class="section-title">English</h2>
+      <p>A1</p>
+    </section>
+  </main>
+  <footer class="footer">
+<a href="https://rs.school/js/"><img src="./rs_school_js.svg" alt="rsschool-logo" width="100" height="70"></a>
+<p class="year">2022</p><!--footer year-->
+<a class="link" href="https://github.com/fedorovrassel">My github</a>
+  </footer>
+</body>
 </html>
